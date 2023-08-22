@@ -172,6 +172,9 @@ body {
 .background-colors-darkblue {
     background-color: #282A35;
 }
+.background-colors-pinkiesWhite {
+    background-color: #F3ECEA;
+}
 
 .template-info {
     display: flex;
@@ -181,12 +184,10 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
 }
-#html-template-ID{
+.template-heading{
     font-size: 100px;
 }
-#css-template-ID{
-    font-size: 100px;
-}
+
 #javascript-template-ID{
     font-size: 70px;
     color: white;
@@ -196,6 +197,9 @@ body {
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
     color: white;
+}
+#python-template-ID {
+    font-size: 80px;
 }
 .template-info p{
     font-size: 19px;
@@ -258,12 +262,27 @@ body {
 .template-example {
     background-color: #E7E9EB;
     height: 466px;
-    width: 400px;
+    width: 422px;
     margin: 10px 0px;
     font-weight: 400;
     border-radius: 5px;
     font-family: 'Source Sans Pro', sans-serif;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.template-example-python {
+    background-color: #E7E9EB;
+    height: 360px;
+    width: 422px;
+    margin: 10px 0px;
+    font-weight: 400;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.template-example-python h1 {
+    padding: 25px 10px 25px 10px;
+    font-size: 24px;
+    font-weight: 600;
 }
 .template-example h1 {
     padding: 25px 10px 25px 10px;
@@ -275,6 +294,18 @@ body {
     background-color: white;
     max-width: 93%;
     height: 66%;
+    margin: auto;
+    padding: 10px;
+    border-left: 4px solid #04AA6D;
+    line-height: 1.5;
+    width: auto;
+    font-family: Consolas,Menlo,"courier new",monospace;
+}
+.example-of-code-python {
+    position: relative;
+    background-color: white;
+    max-width: 93%;
+    height: 57%;
     margin: auto;
     padding: 10px;
     border-left: 4px solid #04AA6D;
