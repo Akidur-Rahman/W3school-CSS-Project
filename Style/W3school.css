@@ -343,3 +343,22 @@ body {
 .button-style:hover {
     background-color: #04945f;
 }
+
+.course-information-container {
+    background-color: ;
+}
+.courses-container {
+    display: grid;
+    grid-template-columns: 555px 555px;
+    grid-template-rows: repeat(3, 250px);
+    row-gap: 30px;
+    justify-content: space-around;
+    margin-top: 80px;
+    
+}
+.course-info {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
