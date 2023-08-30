@@ -358,7 +358,7 @@ body {
     grid-template-rows: repeat(3, 250px);
     row-gap: 30px;
     justify-content: space-around;
-    margin-top: 80px;
+    padding-top: 80px;
     
 }
 .course-info {
