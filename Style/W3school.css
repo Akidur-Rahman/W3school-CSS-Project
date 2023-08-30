@@ -86,7 +86,7 @@ body {
 }
 #nav-below-id{
     display: flex;
-    margin-left: 105px;
+    margin-left: 88px;
 }
 #nav-below-id li{
     padding: 10px 23px;
@@ -112,7 +112,9 @@ body {
     font-weight: 700;
     margin-top: 30px;
     font-family: 'Source Sans Pro', sans-serif;
-
+}
+.wave {
+    margin-bottom: -3px;
 }
 .cond {
     /* background-color: aqua; */
